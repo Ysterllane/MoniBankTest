@@ -15,7 +15,7 @@ botaoIniciarCameta.addEventListener('click', async function (){
     //await espera o usuário aceitar o acesso à câmera
     const iniciarVideo = await navigator.mediaDevices.getUserMedia({video: true, audio: false})
 
-    botaoIniciarCameta.Style.display = 'none' //ao iniciar a câmera ele desaparece da tela
+    botaoIniciarCameta.style.display = 'none' //ao iniciar a câmera ele desaparece da tela
 
     campoCamera.style.display = 'block' //para a camera aparecer na tela
 
